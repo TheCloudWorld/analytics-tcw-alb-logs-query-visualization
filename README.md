@@ -63,3 +63,10 @@ SELECT * FROM "log_db"."alb_logs" limit 100;
 
 
 Now go to Quicksight and create data set, then visualize the query.
+
+
+Drop Table and DB:
+
+drop table `alb_logs`;
+
+drop database `log_db`;
