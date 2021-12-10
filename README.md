@@ -11,6 +11,8 @@ create database 'log_db';
 
 create table:
 
+https://docs.aws.amazon.com/athena/latest/ug/application-load-balancer-logs.html
+
 CREATE EXTERNAL TABLE IF NOT EXISTS alb_logs (
             type string,
             time string,
